@@ -141,6 +141,7 @@ body{
     position: absolute;
     bottom: 5%;
     left: 6%;
+    cursor: pointer;
 }
 
 /*=================================*/
@@ -238,6 +239,7 @@ body{
     background-color: rgba(34, 34, 34, 0.274);
     border-color: rgb(175, 175, 175);
     color: white;
+    cursor: pointer;
 }
 
 /*=================================*/
