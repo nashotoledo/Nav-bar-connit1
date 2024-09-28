@@ -3,27 +3,37 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    scroll-behavior: smooth;
     font-family: sans-serif;
     list-style: none;
 }
 /*============== HEADER ===========*/
-.nav-bar{
-    background-color: rgb(165, 42, 42);
+
+header{
+    background-color: rgba(255, 255, 255, 0.157);
     width: 100%;
-    height: 12vh;
+    height: 15vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+.nav-bar{
+    width: 100%;
+    max-width: 1200px;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
 }
 
 .logo{
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .logo a{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 250%;
 }
 
@@ -36,11 +46,11 @@
 }
 
 .nav-links li a{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .active{
-    background-color: rgb(61, 1, 1);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     border-radius: 12px;
 }
@@ -52,20 +62,27 @@ body{
     display: flex;
     align-items: center;
     flex-flow: column wrap;
+    background-image: url(/img/fondobosque.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .main{
-    background-color: blueviolet;
     width: 100%;
     max-width: 1200px;
-    height: 100vh;
+    height: 85vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin-top: 15vh;
 }
-/*=================================*/
+
 .section-left{
-    background-color: aqua;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255 .5);
     width: 60%;
     margin-right: 10px;
     display: flex;
@@ -78,7 +95,6 @@ body{
     background-color: white;
     width: 90%;
     height: 50vh;
-    margin-top: 8vh;
     border-radius: 15px;
     display: flex;
     flex-flow: column wrap;
@@ -89,7 +105,7 @@ body{
 }
 
 .fondo-color{
-    background-color: orchid;
+    background-color: rgb(25, 42, 45);
     width: 100%;
     height: 20%;
     border-top-left-radius: 15px;
@@ -130,7 +146,7 @@ body{
 /*=================================*/
 
 .educacion{
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
     width: 90%;
     height: 25vh;
     margin-top: 10px;
@@ -142,7 +158,6 @@ body{
 }
 
 .info-educacion{
-    background-color: rgba(0, 0, 255, 0.867);
     width: 90%;
     height: 90%;
 }
@@ -152,7 +167,6 @@ body{
 }
 
 .textos-educacion{
-    background-color: brown;
     margin-top: 40px;
     width: 100%;
 }
@@ -167,7 +181,9 @@ body{
 /*=================================*/
 
 .section-right{
-    background-color: goldenrod;
+    background:transparent;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgb(255, 255, 255 .5);
     width: 35%;
     display: flex;
     flex-flow: column wrap;
@@ -176,10 +192,9 @@ body{
 }
 /*=================================*/
 .contacto-1{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     width: 90%;
     height: 30vh;
-    margin-top:8vh;
     border-radius: 15px;
     display: flex;
     flex-flow: column;
@@ -194,7 +209,6 @@ body{
 
 
 .solicitud-amigos{
-    background-color: red;
     width: 95%;
     height: 35%;
     display: flex;
@@ -204,8 +218,7 @@ body{
 }
 
 .solicitud{
-    background-color: blue;
-    width: 50px;
+    width: 60px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -223,11 +236,14 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    background-color: rgba(34, 34, 34, 0.274);
+    border-color: rgb(175, 175, 175);
+    color: white;
 }
 
 /*=================================*/
 .contacto-2{
-    background-color: rgba(16, 241, 0, 0.727);
+    background-color: rgb(255, 255, 255);
     width: 90%;
     height: 45vh;
     margin-top: 10px;
@@ -244,7 +260,6 @@ body{
 }
 
 .tarjeta-contacto{
-    background-color: green;
     width: 95%;
     height: 20%;
     display: flex;
@@ -260,3 +275,7 @@ body{
     border: 2px solid white;
     margin-right: 30px;
 }
+
+/*=================================*/
+
+
