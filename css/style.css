@@ -141,6 +141,7 @@ body{
     position: absolute;
     bottom: 5%;
     left: 6%;
+    color: rgb(0, 179, 255);
     cursor: pointer;
 }
 
