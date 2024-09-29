@@ -5,11 +5,16 @@
     text-decoration: none;
     font-family: sans-serif;
     list-style: none;
+    scroll-behavior: smooth;
 }
 /*============== HEADER ===========*/
 
 header{
-    background-color: rgba(255, 255, 255, 0.314);
+    background-image: url(/img/fondobosque.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
     height: 15vh;
     display: flex;
@@ -52,7 +57,7 @@ header{
 }
 
 .active{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.284);
     padding: 10px 20px;
     border-radius: 12px;
 }
@@ -79,12 +84,13 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     margin-top: 15vh;
+    gap: 1rem
 }
 
 .section-left{
     background:transparent;
     backdrop-filter: blur(20px);
-    border: 2px solid rgb(255, 255, 255 .5);
+    border: 1px solid rgba(255, 255, 255, .3);
     width: 60%;
     display: flex;
     flex-flow: column wrap;
@@ -190,12 +196,12 @@ body{
 .section-right{
     background:transparent;
     backdrop-filter: blur(20px);
-    border: 2px solid rgb(255, 255, 255 .5);
     width: 35%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    border: 1px solid rgba(255, 255, 255, .3);
 }
 
 .contacto-1{
@@ -288,7 +294,7 @@ body{
 /*=================================*/
 /*================== FOOTER =====================*/
 .footer{
-    background-color: rgb(139, 138, 138);
+    background-color: rgb(183, 183, 183);
     width: 100%;
     height: 20vh;
     display: flex;
@@ -342,23 +348,31 @@ body{
         width: 100%;
         height: 180vh;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column;
         justify-content: center;
+        align-items: center;
         gap: 1rem;
+        margin-top: 13vh;
     }
     .section-left{
-        width: 100%;
+        width: 90%;
+        height: 90%;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
     .section-right{
-        width: 100%;
+        width: 90%;
+        height: 90%;
         display: flex;
         flex-flow: row wrap;
         justify-content: center;
         align-items: center;
+        border-radius: 20px;
+        margin-bottom: 1rem;
     }
 }
 
