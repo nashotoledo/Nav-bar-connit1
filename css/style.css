@@ -29,7 +29,7 @@ header{
     max-width: 1200px;
     height: 15vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: fixed;
     margin-right: 3%;
@@ -329,7 +329,7 @@ body{
 
 @media(width < 750px){
     .nav-bar{
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .nav-links{
         margin-left: 5%;
