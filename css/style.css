@@ -253,6 +253,11 @@ body{
     border-color: rgb(175, 175, 175);
     color: white;
     cursor: pointer;
+    transition: .3s;
+}
+
+.solicitud-amigos input:hover{
+    transform: scale(1.1);
 }
 
 /*=================================*/
