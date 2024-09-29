@@ -27,10 +27,11 @@ header{
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    margin-right: 3%;
 }
 
 .logo{
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 .logo a{
