@@ -332,7 +332,7 @@ body{
 }
 /*=================================*/
 
-@media(width < 750px){
+@media(width < 830px){
     .nav-bar{
         justify-content: space-around;
     }
